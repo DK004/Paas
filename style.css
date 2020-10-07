@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FEE140;
+    background-image: linear-gradient(135deg, #FEE140 0%, #FA709A 100%);
+    
+    color: white;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pw-container{
+    background-color: #FEE140;
+    background-image: linear-gradient(315deg, #FEE140 0%, #FA709A 100%);
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+
+.pw-header{
+
+ padding: 1rem;   
+}
+.pw{
+    padding: 10px 16px 16px 16px;
+    font-size: 1.5rem;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #FA709A;
+    vertical-align: middle;
+}
+
+.pw-body{
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+
+}
+
+
+.generate{
+    background-color: #FEE140;
+    color:white;
+    font-weight: bold;
+    padding: 1rem;
+    border: none;
+    width: 100%;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.generate:hover{
+    transform: translate(0,5px);
+    color:   #FEE140;
+    background-color:#FA709A;
+}
+
+#copy{
+    background-color: #FEE140;
+    color:white;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#copy:hover{
+    cursor:pointer;
+    color: #FA709A;
+    background-color: white;
+}
+
+
+#textarea{
+    display: none;
+}
